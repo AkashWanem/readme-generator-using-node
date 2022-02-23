@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AkashWanem/readme-generator-using-node/issues"
   },
-  "homepage": "https://github.com/AkashWanem/readme-generator-using-node#readme"
+  "homepage": "https://github.com/AkashWanem/readme-generator-using-node#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
