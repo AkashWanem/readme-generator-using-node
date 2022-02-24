@@ -165,8 +165,20 @@ function writeToFile(fileName, data) {
     })
 }
 
+const createReadMe = util.promisify(writeToFile);
+
 // TODO: Create a function to initialize app
-function init() {}
+async function init() {
+    try {
+        const userAnswers = await inquirer.prompt(questions);
+        console.log('Your data is being processed into the README.md: ', userAnswers);
+        const markDown = generateMarkdown(userAnswers);
+        console.log(markDown);
+        await createReadMe(markDown);
+    } catch (error) {
+        console.log('Sorry there is an error.' + error);
+    }
+};
 
 // Function call to initialize app
 init();
