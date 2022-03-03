@@ -21,7 +21,7 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'title',
+    name: 'description',
     message: 'What is the description of your Project? *',
     validate: nameInput => {
         if (nameInput) {
@@ -57,7 +57,7 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'installation',
+    name: 'usage',
     message: 'Please type in usage instructions.',
     when: ({ confirmUsage }) => {
         if (confirmUsage) {
@@ -106,16 +106,12 @@ const questions = [{
     name: 'license',
     message: 'Please choose a license.',
     choices: [
-
-    ],
-    validate: nameInput => {
-        if (nameInput) {
-            return true;
-        } else {
-            console.log('Please select a license');
-            return false;
-        }
-    }
+        'MIT',
+        'GNU General Public License 2.0',
+        'Apache License 2.0',
+        'ISC',
+        'Mozilla Public License 2.0'
+    ]
 },
 {
     type: 'input',
@@ -139,18 +135,6 @@ const questions = [{
             return true;
         } else {
             console.log('Please enter your email address.');
-            return false;
-        }
-    }
-},
-{
-    type: 'input',
-    name: 'contact',
-    message: 'Please type in instructions on how to contact you.',
-    validate: nameInput => {
-        if (nameInput) {
-            return true;
-        } else {
             return false;
         }
     }
