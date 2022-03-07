@@ -1,4 +1,4 @@
-# sadsa
+# card generator
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents:
@@ -11,27 +11,31 @@
   7. [Question](#questions)
 
   ## Description
-  sadsa
+  an app that generates card for occassion
 
   ## Installation
 
   _Instructions for installation of this application:_
   false
+  undefined
 
   ## Usage
 
   _Instructions for usage:_
-  false
+  true
+  Users inputs data that he/she wants on their card and generator automatically generates the card for them
 
   ## Contributions
 
   _Developer that have contributed to your project?_
-  false
+  true
+  an expert of card designing company
 
   ## Tests
 
   _Instructions for testing your application:_
-  false
+  true
+  tested using jest
 
   ## License
 
@@ -39,5 +43,5 @@
 
   ## Questions
 
-  If you have any questions regarding the project please contact me on sdasad or visit (https://www.github.com/sdsadsa), Thank You!
+  If you have any questions regarding the project please contact me on akaah.wanem@gmail.com or visit (https://www.github.com/AkashWanem), Thank You!
 

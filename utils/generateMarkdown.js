@@ -64,21 +64,25 @@ function generateMarkdown(data) {
 
   _Instructions for installation of this application:_
   ${data.confirmInstallation}
+  ${data.installation}
 
   ## Usage
 
   _Instructions for usage:_
   ${data.confirmUsage}
+  ${data.usage}
 
   ## Contributions
 
   _Developer that have contributed to your project?_
   ${data.confirmContribution}
+  ${data.contribution}
 
   ## Tests
 
   _Instructions for testing your application:_
   ${data.confirmTest}
+  ${data.test}
 
   ## License
 
