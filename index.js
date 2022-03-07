@@ -70,14 +70,14 @@ const questions = [{
 {
     type: 'confirm',
     name: 'confirmContribution',
-    message: 'Shall other developers add their contribution?'  
+    message: 'Did other developers added their contribution?'  
 },
 {
     type: 'input',
     name: 'contribution',
     message: 'Please type in contribution guidelines.',
-    when: ({ confirmUsage }) => {
-        if (confirmUsage) {
+    when: ({ confirmContribution }) => {
+        if (confirmContribution) { 
             return true;
         } else {
             return false;
@@ -102,7 +102,7 @@ const questions = [{
     }
 },
 {
-    type: 'checkbox',
+    type: 'list',
     name: 'license',
     message: 'Please choose a license.',
     choices: [
@@ -145,7 +145,7 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, error => {
         if (error) {
             return console.log('Sorry there is an error :' + error);
-        }
+        } 
     })
 }
 
@@ -158,7 +158,7 @@ async function init() {
         console.log('Your data is being processed into the README.md: ', userAnswers);
         const markDown = generateMarkdown(userAnswers);
         console.log(markDown);
-        await createReadMe(markDown);
+        await createReadMe('README1.md', markDown);
     } catch (error) {
         console.log('Sorry there is an error.' + error);
     }
