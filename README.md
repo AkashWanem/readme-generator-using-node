@@ -1,24 +1,47 @@
-# readme-generator-using-node
+# readme generator using node
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Description: On this task i had to create a readme generator using node and javascript as a language. It will help users quickly create a proffesionalnal readme for their project. Generator will prompt out series of questions for users to fill in such as title of project, sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and reach me section. After users fills all the requirement, the generator will process them a proffessional Readme. If the user fails to answer required section, an error message will pop up.
+  ## Table of Contents:
+  1. [Description](#description) 
+  2. [Installation](#installation)
+  3. [Usage](#usage)  
+  4. [Contributing](#contribution)
+  5. [Tests](#test)
+  6. [License](#license)
+  7. [Question](#questions)
 
+  ## Description
+  On this task i had to create a readme generatr using node and javascript as a language. it will help users quickly create a professional readme for their project. Generator will prompt out series of questions for users to fill in such as title of project, sections entitled description, table of contents, installation, usage, license, contribution, tests and reach me section. After user fills all the requirement, the generator will process them a professional Readme. f the user fails to answer required section, an error message will pop up.
 
-acceptance criteria: GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+  ## Installation
 
+  _Instructions for installation of this application:_
+  false
+  undefined
 
+  ## Usage
 
-walkthrough video:
+  _Instructions for usage:_
+  true
+  answer all the questions asked and see you readme being created
+
+  ## Contributions
+
+  _Developer that have contributed to your project?_
+  false
+  undefined
+
+  ## Tests
+
+  _Instructions for testing your application:_
+  true
+  you can test it using jest
+
+  ## License
+
+  This application uses Apache License 2.0(https://opensource.org/licenses/Apache-2.0) license.
+
+  ## Questions
+
+  If you have any questions regarding the project please contact me on akaah.wanem@gmail.com or visit (https://www.github.com/AkashWanem), Thank You!
+

@@ -158,7 +158,7 @@ async function init() {
         console.log('Your data is being processed into the README.md: ', userAnswers);
         const markDown = generateMarkdown(userAnswers);
         console.log(markDown);
-        await createReadMe('README1.md', markDown);
+        await createReadMe('README.md', markDown);
     } catch (error) {
         console.log('Sorry there is an error.' + error);
     }
