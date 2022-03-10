@@ -12,6 +12,14 @@
 
   ## Description
   On this task i had to create a readme generatr using node and javascript as a language. it will help users quickly create a professional readme for their project. Generator will prompt out series of questions for users to fill in such as title of project, sections entitled description, table of contents, installation, usage, license, contribution, tests and reach me section. After user fills all the requirement, the generator will process them a professional Readme. f the user fails to answer required section, an error message will pop up.
+  
+  ## Technologies used:
+  * Jest
+  * Javascript
+  
+  ## Deployment :
+  
+  Click here to see the video demontration https://drive.google.com/file/d/1UCySzZIxwwUpM2Ubzu1VpQpfgLVURO_J/view?usp=sharing
 
   ## Installation
 
